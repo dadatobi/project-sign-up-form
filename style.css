@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'norsebold';
+  src: url('font/norse-bold-webfont.woff2') format('woff2'),
+    url('font/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 860px;
+  margin: 0 auto;
+}
+
+.side-1 {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: left;
+  background-size: cover;
+  flex: 0 1 330px;
+}
+
+.odin-logo {
+  display: flex;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  padding: 16px;
+  font-size: 35px;
+  font-family: 'norsebold';
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.odin-logo > img {
+  width: 52px;
+}
+
+.credit {
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  margin-bottom: 12px;
+  font-family: sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+.credit-link {
+  /* text-decoration: none; */
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex: 1;
+  background-color: rgb(250, 250, 250);
+}
+form > * {
+  padding-left: 32px;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 58px;
+  padding-bottom: 52px;
+  font-weight: 700;
+}
+.form-1 > p {
+  max-width: 420px;
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 2px 0px rgb(216, 214, 214);
+}
+
+h4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+ul {
+  display: flex;
+  gap: 32px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 900;
+  text-shadow: 0px 1px;
+}
+input {
+  margin-bottom: 16px;
+  padding: 4px;
+  border-radius: 4px;
+  border: 2px solid rgb(228, 225, 225);
+}
+
+input:focus {
+  border-color: rgb(49, 49, 240);
+  outline: none;
+  transition: 0.2s;
+  /* box-shadow: rgb(49, 49, 240); */
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 12px;
+}
+
+.form-3 {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 600;
+  font-size: 13.5px;
+}
+
+button[type='submit'] {
+  background-color: #596d48;
+  border: 3px solid #596d48;
+  border-radius: 3px;
+  color: white;
+  padding: 6px;
+  width: 160px;
+}
+p a {
+  color: rgb(114, 113, 113);
+  text-decoration: none;
+}
+
+.error {
+  border: 2px solid rgb(255, 4, 4);
+}
+
+.success {
+  border: 2px solid #596d48;
+}

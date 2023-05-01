@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="side-1">
+        <div class="odin-logo">
+          <img src="/img/odin-lined.png" alt="Odin Logo" />
+          <h2>ODIN</h2>
+        </div>
+        <div class="credit">
+          Photo by
+          <a
+            class="credit-link"
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Halie West</a
+          >
+          on
+          <a
+            class="credit-link"
+            href="https://unsplash.com/photos/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >
+            Unsplash</a
+          >
+        </div>
+      </div>
+      <form action="#" method="post">
+        <section class="form-1">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            now to get started.
+          </p>
+          <p>You know you want to.</p>
+        </section>
+        <section class="form-2">
+          <h4>Let's do this!</h4>
+          <ul>
+            <li>
+              <label for="first-name">FIRST NAME</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Thor"
+                required
+              />
+            </li>
+            <li>
+              <label for="last-name">LAST NAME</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Odinson"
+                required
+              />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <label for="mail">EMAIL</label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                placeholder="Example@you.com"
+                required
+              />
+            </li>
+            <li>
+              <label for="tel">PHONE NUMBER</label>
+              <input
+                type="tel"
+                name="telephone-number"
+                id="tel"
+                placeholder="+2348123456789"
+                required
+              />
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" required />
+            </li>
+            <li>
+              <label for="c-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="c-password"
+                id="c-password"
+                required
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="form-3">
+          <div>
+            <button type="submit">Create Account</button>
+          </div>
+          <div>
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
